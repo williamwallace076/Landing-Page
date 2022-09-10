@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+.main-area{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto condensed', sans-serif;
+    gap: 6rem;
+}
+
+.info-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    color: #fff;
+    gap: 5rem;
+}
+.main-logo{
+    width: 20rem;
+    height: 20rem;
+}
+.description-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.funcionalities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px solid #0f872f;
+    padding-right: 2rem;
+}
+.secondary-span{
+    margin-left: 1rem;
+}
+.func{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+
+.form{
+    color: #fff;
+    width: 19rem;
+    height: 28rem;
+    border: 1px solid #71d68c;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-subtitle{
+    font-size: 0.9rem;
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 15rem;
+}
+
+.input-area label{
+    font-size: 0.9rem;
+}
+
+.input{
+    color:#fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #71d68c;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.input:focus{
+    outline: 0;
+    border-bottom:1px solid red;
+}
+
+.input:-webkit-autofill{
+    -webkit-text-fill-color: white !important;
+    box-shadow: 0 0 0px 1000px #12151e inset;
+}
+
+.input:hover{
+    cursor: pointer;
+}
+
+.submit{
+    color: #fff;
+    background-color: #0f872f;
+    width: 14rem;
+    height: 4rem;
+    border-radius:0.3rem;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid #000;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #f50441;
+}
+
+@media(max-Width:620px){
+
+
+    .main-area{
+        margin-top: 10rem;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .info-area{
+        gap: 4rem;
+    }
+
+    .main-logo{
+            display: none;
+    }
+
+    .description-area{
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .funcionalities{
+        flex-direction: column;
+        border: none;
+        padding: 0;
+        margin-bottom: 4rem;
+        gap: 2rem;
+
+    }
+
+    .func{
+        width: 20rem;
+        font-size: 1.5rem;
+    }
+
+    .secondary-span{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-top: 1px solid #71d68c;
+    border-bottom: 1px solid #71d68c;
+    font-family: monospace; 
+   }
+
+   .form{
+    border: none;
+    font-size: 1.5rem;
+    height: 40rem;
+   }
+
+   .form-subtitle{
+    margin-top: 0.2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+ }
+  .input-area{
+    height: 20rem;
+    margin-bottom: 2rem;
+ }
+ .input-area label{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.input{
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.submit{
+    width: 21rem;
+    height: 7rem;
+    font-size: 1.8rem;
+    border: 1px solid #000;
+}
+
+}
